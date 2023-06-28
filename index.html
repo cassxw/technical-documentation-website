@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <nav id="navbar">
+        <a class="nav-link" href=#Introduction_to_Python>Introduction to Python</a>
+        <a class="nav-link" href=#Installation_and_Setup>Installation and Setup</a>
+        <a class="nav-link" href=#Basic_Syntax_and_Data_Types>Basic Syntax and Data Types</a>
+        <a class="nav-link" href=#Control_Flow_and_Loops>Control Flow and Loops</a>
+        <a class="nav-link" href=#Functions_and_Modules>Functions and Modules</a>
+    </nav>
+
+    <main id="main-doc">
+        
+        <!-- min. 5 sections: at least 10 p, 5 code, and 5 li IN TOTAL -->
+
+        <section class="main-section">
+            <header id="Introduction_to_Python">Introduction to Python</header>
+            <p>Python is a high-level, interpreted programming language known for its simplicity and readability. It was created by Guido van Rossum and first released in 1991. Python supports multiple programming paradigms, including procedural, object-oriented, and functional programming. It has a large standard library and a vibrant community that contributes numerous third-party libraries and frameworks. Python is widely used for web development, scientific computing, data analysis, artificial intelligence, and more.</p>
+            <p>This technical documentation provided an overview of Python programming, including installation and setup, basic syntax, control flow, and functions. With this knowledge, you can start exploring the vast possibilities of Python and build various applications. Remember to consult the official Python documentation and other resources for more in-depth information and advanced topics.</p>
+            <p>Happy coding!</p>
+        </section>
+
+        <section class="main-section">
+            <header id="Installation_and_Setup">Installation and Setup</header>
+            <p>This section provides instructions on how to install and set up Python on your system.</p>
+
+            <h2>Installing Python</h2>
+            <p>To install Python, follow these steps:</p>
+            <ol>
+                <li>Visit the <a href="https://www.python.org">official Python website</a>.</li>
+                <li>Navigate to the Downloads section.</li>
+                <li>Choose the appropriate Python version for your operating system.</li>
+                <li>Download the installer and run it.</li>
+                <li>Follow the installation wizard instructions.</li>
+                <li>Verify the installation by opening a command prompt and typing <code>python --version</code>.</li>
+            </ol>
+
+            <h2>Setting up a Development Environment</h2>
+            <p>Once Python is installed, you need to set up a development environment. Once Python is installed, you need to set up a development environment. Here are some popular options:</p>
+            <p><em>IDLE:</em> Python comes bundled with IDLE, an integrated development environment. It provides a basic editor and interactive Python shell.</p>
+            <p><em>PyCharm:</em> PyCharm is a powerful IDE for Python development. It offers advanced features like code completion, debugging, and project management.</p>
+            <p><em>Visual Studio Code:</em> PyCharm is a powerful IDE for Python development. It offers advanced features like code completion, debugging, and project management.</p>
+
+        </section>
+
+        <section class="main-section">
+            <header id="Basic_Syntax_and_Data_Types">Basic Syntax and Data Types</header>
+            <p>In this section, we will cover the fundamental syntax of the Python programming language and explore its built-in data types.</p>
+            
+            <h2>Variables and Assignments</h2>
+            <p>Variables in Python are dynamically typed, meaning you don't need to declare their type explicitly. To assign a value to a variable, use the assignment operator (=).</p>
+            <code># Variable assignment<br>message = "Hello, World!"</code>
+        
+            <h2>Data Types</h2>
+            <p>Python supports various built-in data types, including:</p>
+            <ul>
+                <li>Numerics: <i>int, float, complex</i></li>
+                <li>Boolean: <i>bool</i></li>
+                <li>Sequences: <i>str, list, tuple</i></li>
+                <li>Mapping: <i>dict</i></li>
+                <li>Sets: <i>set, frozenset</i></li>
+            </ul>
+            <code># Examples of data types
+                <br>age = 25
+                <br>height = 1.75
+                <br>name = "John Doe"
+                <br>fruits = ["apple", "banana", "cherry"]
+                <br>person = {"name": "Alice", "age": 30}</code>
+        </section>
+
+        <section class="main-section">
+            <header id="Control_Flow_and_Loops">Control Flow and Loops</header>
+            <p>Control flow statements allow you to control the execution flow of your program. Python provides conditional statements (<i>if, elif, else</i>) and loop statements (<i>for, while</i>).</p>
+        
+            <h2>Conditional Statements</h2>
+            <p>Conditional statements evaluate conditions and execute different blocks of code based on the result.</p>
+            <code># Example of an if statement
+                <br>age = 18
+                <br>if age >= 18:
+                <br>     print("You are eligible to vote!")
+                <br>else:
+                <br>     print("You are not eligible to vote.")</code>
+
+            <h2>Loop Statements</h2>
+            <p>Loop statements allow you to repeat a block of code multiple times.</p>
+            <ul>
+                <li>
+                    <h3>For Loop</h3>
+                    <p>The <i>for</i> loop is used to iterate over a sequence (e.g., a list, tuple, or string) or other iterable objects.</p>
+                    <code># Example of a for loop
+                        <br>fruits = ["apple", "banana", "cherry"]
+                        <br>for fruit in fruits:
+                        <br>    print(fruit)</code>
+                </li>
+                <li>
+                    <h3>While Loop</h3>
+                    <p>The <i>while</i> loop continues executing a block of code as long as the specified condition remains true.</p>
+                    <code># Example of a while loop
+                        <br>count = 0
+                        <br>while count < 5:
+                        <br>    print("Count:", count)
+                        <br>    count += 1</code>
+                </li>
+            </ul>
+
+        </section>
+
+        <section class="main-section">
+            <header id="Functions_and_Modules">Functions and Modules</header>
+            <p>Python allows you to define reusable blocks of code as functions and organize them into modules.</p>
+
+            <h2>Functions</h2>
+            <p>Functions in Python are defined using the <i>def</i> keyword. They can accept arguments and return values.</p>
+            <code># Example of a function
+                <br>def greet(name):
+                <br>    print("Hello, " + name + "!")
+                <br>
+                <br>greet("Alice")</code>
+
+            <h2>Modules</h2>
+            <p>Modules are Python files containing functions, variables, and classes that can be imported and used in other programs.</p>
+            <code># Example of module usage
+                <br>import math
+                <br>print(math.sqrt(16))  # Output: 4.0</code>
+
+        </section>
+
+    </main>
+
+</body>
+
+</html>
