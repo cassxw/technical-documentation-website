@@ -1,3 +1,56 @@
+@media (max-width: 650px) {
+
+    #navbar {
+        border-right: none !important;
+        border-bottom: 5px solid #344966 !important;
+        font-size: 12px;
+
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        height: 100px !important;
+
+        top: 0;
+
+        flex-direction: row !important;
+        align-items: center;
+        justify-content: space-between;
+        gap: 25px;
+    }
+
+    #logo {
+        width: 50px !important;
+        height: auto;
+        align-self: center;
+        padding-top: 0px !important;
+        padding-left: 10px;
+    }
+
+    #title {
+        display: none;
+    }
+
+    #navbar ul {
+        border-bottom: none !important;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #navbar ul a li {
+        border: 0.5px solid #344966;
+        padding: 5px !important;
+    }
+
+    #main-doc {
+        margin-left: 0px !important;
+        margin-top: 75px !important;
+    }
+
+    section {
+        scroll-margin-top: 100px;
+    }
+}
+
 html {
     margin: 0px;
     padding: 0px;
@@ -7,6 +60,8 @@ body {
     background-color: #CCDBDC;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #0D1821;
+
+    min-width: 390px;
 
     margin: 0px;
     padding: 0px;
@@ -29,6 +84,7 @@ body {
 #logo {
     width: 100px;
     height: auto;
+    padding-top: 15px;
     align-self: center;
 }
 
@@ -38,6 +94,7 @@ body {
 
     margin: 0px;
     padding: 25px 10px;
+    padding-top: 10px;
 }
 
 #navbar ul {
@@ -92,7 +149,7 @@ p {
     line-height: 1.5;
 }
 
-section ul, 
+section ul,
 section ol {
     display: flex;
     flex-direction: column;
