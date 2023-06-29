@@ -73,14 +73,46 @@ body {
     padding: 20px;
 }
 
+section {
+    border-bottom: 2px solid #344966;
+    padding: 25px 0px;
+}
+
+section h2 {
+    margin-top: 25px;
+}
+
 header {
     font-size: 30px;
     font-weight: 800;
     text-decoration: underline;
-
-    margin-top: 30px;
 }
 
 p {
     line-height: 1.5;
+}
+
+section ul, 
+section ol {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+pre {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}
+
+code {
+    display: block;
+    border-radius: 25px;
+    background-color: #344966;
+    color: #CCDBDC;
+    line-height: 2;
+
+    margin: 10px 0px;
+    padding: 15px;
 }
